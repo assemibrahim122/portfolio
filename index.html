@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>خد فكره مع عاصم</title>
+    <!-- font awsem -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css files -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaQ.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- ============== LOADING PAGE ============== -->
+    <div id="bgLoading">
+        <div class="loading-container">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </div>
+    <!-- ============== ARROW TO TOP ============== -->
+    <a href="#home" id="arrowHome">
+        <i class="fa-solid fa-circle-up"></i>
+    </a>
+    <!-- ==============  NAVBAR  ============== -->
+
+    <nav id="mainNav">
+        <div class="container">
+            <a href="https://www.facebook.com/Assem.fikraa/?show_switched_toast=0&show_
+            invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_
+            transition=0&show_community_review_changes=0&show_follower_visibility_disclosure=0" target="blank"">
+                <h2 class=" logo">Assem</h2>
+            </a>
+            <div id="menu">
+                <a class="active" onclick="resetBtns(this.id)" id="link1">Home</a>
+                <a class="" onclick="resetBtns(this.id)" id="link2">About</a>
+                <a class="" onclick="resetBtns(this.id)" id="link3">Skills</a>
+                <a class="" onclick="resetBtns(this.id)" id="link4">Portflio</a>
+            </div>
+
+            <a class="contact" onclick="resetBtns(this.id)" id="cntct">Contact</a>
+
+            <!-- mobile icon -->
+            <div id="menuIcon">
+                <div class="up"></div>
+                <div class="middle"></div>
+                <div class="bottom"></div>
+            </div>
+        </div>
+    </nav>
+    <section id="navPhone">
+        <div id="menu">
+            <a onclick="phoneLinks(this.id)" id="link1Phone">Home</a>
+            <a onclick="phoneLinks(this.id)" id="link2Phone">About</a>
+            <a onclick="phoneLinks(this.id)" id="link3Phone">Services</a>
+            <a onclick="phoneLinks(this.id)" id="link4Phone" class="">Portflio</a>
+        </div>
+        <div class="icons">
+            <div class="row">
+                <a href="https://wa.me/201121165769" target="blank"> <i class="fa-brands fa-whatsapp-square"></i> </a>
+                <a href="https://github.com/AhmedMahmoud929" target="_blank"> <i class="fa-brands fa-github-square"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100028876007672" target="blank"> <i
+                        class="fa-brands fa-facebook-square"></i> </a>
+            </div>
+            <div class="row">
+                <a> <i class="fa-brands fa-linkedin"></i> </a>
+                <a href="https://www.behance.net/ahmedmahmoud68" target="blank"> <i
+                        class="fa-brands fa-behance-square"></i> </a>
+                <a> <i class="fa-solid fa-square-envelope"></i> </a>
+            </div>
+        </div>
+    </section>
+    <!-- ==============  HOME  ============== -->
+    <section id="home">
+        <!-- stars -->
+        <div id="orangeStar" class="str1"></div>
+        <div id="orangeStar" class="str2"></div>
+        <div id="purpleStar" class="str3"></div>
+        <div id="purpleStar" class="str4"></div>
+        <!-- wave effect -->
+        <div class="ocean">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <div class="container">
+            <div class="left">
+                <h1 data-aos="fade-right">Hi, I'm Assem Ibrahim</h1>
+                <h2 data-aos="fade-right">
+                    I'm a
+                    <span class="typed-text"></span>
+                    <span class="cursor">&nbsp;</span>
+                </h2>
+
+                <p data-aos="fade-right">
+                    I'm Assem - graduated from Arab Academy for Science, Technology & Maritime Transport “Technical
+                    Vocational Institute”
+                    <br />
+                </p>
+                <a href="cv.pdf" class="cv" data-aos="fade-right">download cv</a>
+            </div>
+
+            <div class="right">
+                <img src="./img/assem.png" class="me" data-aos="fade-up" />
+
+                <!-- icons -->
+                <img src="./img/web-design.png" class="web" data-aos="fade-right" />
+                <img src="./img/pen-tool.png" class="vector" data-aos="fade-right" />
+                <img src="./img/brush-pen.png" class="design" data-aos="fade-left" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============  ABOUT  ============== -->
+    <section id="about">
+        <!-- stars -->
+        <div id="orangeStar" class="str1"></div>
+        <div id="purpleStar" class="str2"></div>
+        <div id="purpleStar" class="str3"></div>
+        <div class="container">
+            <!-- top -->
+            <div class="top">
+                <div class="left" data-aos="fade-right">
+                    <h1>About me</h1>
+                    <div class="circle">
+                        <img src="./img/smalll.png" alt="logo" />
+                    </div>
+                </div>
+                <div class="right" data-aos="fade-left">
+                    <!-- skl1 -->
+                    <div class="skl">
+                        <div class="info">
+                            <h3>Youtuber</h3>
+                            <h3>90%</h3>
+                        </div>
+                        <div class="bar">
+                            <div class="barEvo" id="evo1"></div>
+                        </div>
+                    </div>
+                    <!-- skl2 -->
+                    <div class="skl">
+                        <div class="info">
+                            <h3>Automotive Engineer</h3>
+                            <h3>80%</h3>
+                        </div>
+                        <div class="bar">
+                            <div class="barEvo" id="evo2"></div>
+                        </div>
+                    </div>
+                    <!-- skl3 -->
+                    <div class="skl">
+                        <div class="info">
+                            <h3>Freelance</h3>
+                            <h3>75%</h3>
+                        </div>
+                        <div class="bar">
+                            <div class="barEvo" id="evo3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- bottom -->
+            <div class="bottom" data-aos="fade-up">
+                <div class="box box1">
+                    <h1>05</h1>
+                    <h2>Years<br />experience</h2>
+                </div>
+                <div class="box box2">
+                    <h1>+70 000</h1>
+                    <h2>viewers</h2>
+                </div>
+                <div class="box box3">
+                    <h1>+82</h1>
+                    <h2>Clients</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============  SERVICES  ============== -->
+    <section id="services">
+        <!-- stars -->
+        <div id="orangeStar" class="str1"></div>
+        <div id="orangeStar" class="str2"></div>
+        <div id="purpleStar" class="str4"></div>
+        <div id="purpleStar" class="str5"></div>
+        <!--  -->
+        <div class="container">
+            <h1 class="title">Skills</h1>
+
+            <div class="servs">
+                <!-- web -->
+                <div class="ser">
+                    <div class="main">
+                        <!-- ball image -->
+                        <img id="ball1" src="./img/purpleBall.png" alt="3dBall" data-aos="fade-left" />
+                        <!-- laptop image -->
+                        <div class="bg" data-aos="fade-up">
+                            <img class="lap new" src="./img/asomy.jpg" alt="laptop" />
+                        </div>
+                        <!-- label -->
+                        <div class="label" data-aos="fade-right">
+                            <h1>Youtuber</h1>
+                            <p>
+                                I speak in meaningful content for all <br />car users in the world
+
+
+                            </p>
+                            <div class="btns">
+                                <a href="#contact">Contact</a>
+                                <a href="https://www.youtube.com/channel/UC7pp5pIsdkIUsjyOIdrLBnQ" target="_blank">See
+                                    channel</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ui / ux -->
+                <div class="ser">
+                    <div class="main">
+                        <!-- ball image -->
+                        <img id="ball2" src="./img/orangeBall.png" alt="3dBall" data-aos="fade-right" />
+                        <!-- laptop image -->
+                        <div class="bg" data-aos="fade-up">
+                            <img class="lap new" src="./img/RepairSmith-auto-repair-funding-1000x600.jpg"
+                                alt="laptop" />
+                        </div>
+                        <!-- label -->
+                        <div class="label" id="label2" data-aos="fade-left">
+                            <h1>Automotive Engineer</h1>
+                            <p>Automobile maintenance specialist
+                            </p>
+                            <div class="btns">
+                                <a href="#contact">Contact</a>
+                                <a href="https://www.youtube.com/channel/UC7pp5pIsdkIUsjyOIdrLBnQ" target="_blank">see
+                                    channel</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- design -->
+                <div class="ser">
+                    <div class="main">
+                        <!-- ball image -->
+                        <img id="ball3" src="./img/purpleBall.png" alt="3dBall" data-aos="fade-left" />
+                        <!-- laptop image -->
+                        <div class="bg" data-aos="fade-up">
+                            <img class="lap new" src="./img/ommmay.jpg" alt="laptop" />
+                        </div>
+                        <!-- label -->
+                        <div class="label" id="label3" data-aos="fade-right">
+                            <h1>Freelance</h1>
+                            <p>
+                                Everything related to car mechanics<br />theories of laws
+                            </p>
+                            <div class="btns">
+                                <a href="#contact">Contact</a>
+                                <a href="#portflio">See video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============  PORTFLIO  ============== -->
+    <section id="portflio">
+        <div id="orangeStar" class="str1"></div>
+        <div id="orangeStar" class="str2"></div>
+        <div id="purpleStar" class="str3"></div>
+        <div id="purpleStar" class="str4"></div>
+        <div class="container">
+            <div class="top">
+                <div class="left">
+                    <h1>Portfolio</h1>
+                    <p>
+                        Here you can see some of our completed projects <br />and videos as well
+                        Work in various fields...Enjoy
+
+                    </p>
+                </div>
+                <div class="right">
+                    <a id="all" class="active">All</a>
+                    <a id="graphic">Channel</a>
+                    <a id="vector">Contestant</a>
+                    <a id="web">Support</a>
+                </div>
+            </div>
+            <div id="allWork">
+
+                <div id="DesSec">
+                    <div class="row" id="DesSec">
+
+
+
+
+
+
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/11.jpg" alt="the work image" class="image" />
+                            <div class="category">Chanel</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://www.youtube.com/watch?v=1lhhacmg2o0&ab_channel=%D8%AE%D8%AF%D9%81%D9%83%D8%B1%D9%87-Fikraa"
+                                target="_blank">
+                                <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/12.jpg" alt="the work image" class="image" />
+                            <div class="category">Chanel</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://www.youtube.com/watch?v=lb6e2I7Mh1M&t=389s&ab_channel=%D8%AE%D8%AF%D9%81%D9%83%D8%B1%D9%87-Fikraa
+                            " target="_blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/13.jpg" alt="the work image" class="image" />
+                            <div class="category">Chanel</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://www.youtube.com/watch?v=0jvqHv4Kx3E&ab_channel=%D8%AE%D8%AF%D9%81%D9%83%D8%B1%D9%87-Fikraa"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/14.jpg" alt="the work image" class="image" />
+                            <div class="category">Chanel</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://www.youtube.com/watch?v=tejE0ruBdBA&ab_channel=%D8%AE%D8%AF%D9%81%D9%83%D8%B1%D9%87-Fikraa"
+                                target="_blank"> <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/15.jpg" alt="the work image" class="image" />
+                            <div class="category">Chanel</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://www.youtube.com/watch?v=tlZnpfvIOYg&t=4s&ab_channel
+                            =%D8%AE%D8%AF%D9%81%D9%83%D8%B1%D9%87-Fikraa" target="_blank">
+                                <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/16.jpg" alt="the work image" class="image" />
+                            <div class="category">Chanel</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://www.youtube.com/watch?v=TUbIQqszvuU&ab_channel=
+                            %D8%AE%D8%AF%D9%81%D9%83%D8%B1%D9%87-Fikraa" target="_blank">
+                                <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/17.jpg" alt="the work image" class="image" />
+                            <div class="category">Chanel</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://www.youtube.com/watch?v=tejE0ruBdBA&ab_channel
+                            =%D8%AE%D8%AF%D9%81%D9%83%D8%B1%D9%87-Fikraa" target="_blank">
+                                <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/18.jpg" alt="the work image" class="image" />
+                            <div class="category">Chanel</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://www.youtube.com/watch?v=NANYtvZYd2A&t=122s&ab_
+                            channel=%D8%AE%D8%AF%D9%81%D9%83%D8%B1%D9%87-Fikraa" target="_blank">
+                                <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/19.jpg" alt="the work image" class="image" />
+                            <div class="category">Chanel</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://www.youtube.com/watch?v=X2hf-7jmjz8" target="_blank"> <img
+                                    src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/20.jpg" alt="the work image" class="image" />
+                            <div class="category">Chanel</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="https://www.youtube.com/watch?v=v3pSL0QPLrE&ab_channel
+                            =%D8%AE%D8%AF%D9%81%D9%83%D8%B1%D9%87-Fikraa" target="_blank">
+                                <img src="./img/link.png" class="link" alt="link"></a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+                <div id="VecSec">
+
+                    <div class="row">
+
+
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/b.jpg" alt="the work image" class="image" />
+                            <div class="category">contest</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/c.jpg" alt="the work image" class="image" />
+                            <div class="category">contest</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/d.jpg" alt="the work image" class="image" />
+                            <div class="category">contest</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/e.jpg" alt="the work image" class="image" />
+                            <div class="category">contest</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/f.jpg" alt="the work image" class="image" />
+                            <div class="category">contest</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/g.jpg" alt="the work image" class="image" />
+                            <div class="category">contest</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/h.jpg" alt="the work image" class="image" />
+                            <div class="category">contest</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/i.jpg" alt="the work image" class="image" />
+                            <div class="category">contest</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/j.jpg" alt="the work image" class="image" />
+                            <div class="category">contest</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/o.jpg" alt="the work image" class="image" />
+                            <div class="category">contest</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div id="WebSec">
+                    <div class="row">
+
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/aaaaa.jpg" alt="the work image" class="image" />
+                            <div class="category">Support and encouragement</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/bbbbbbb.jpg" alt="the work image" class="image" />
+                            <div class="category">Support and encouragement</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/cccccc.jpg" alt="the work image" class="image" />
+                            <div class="category">Support and encouragement</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/dddddd.jpg" alt="the work image" class="image" />
+                            <div class="category">Support and encouragement</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/eeeeeeee.jpg" alt="the work image" class="image" />
+                            <div class="category">Support and encouragement</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/fffffff.jpg" alt="the work image" class="image" />
+                            <div class="category">Support and encouragement</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/ggggggg.jpg" alt="the work image" class="image" />
+                            <div class="category">Support and encouragement</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/hhhhhhhh.jpg" alt="the work image" class="image" />
+                            <div class="category">Support and encouragement</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"> </a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/20.jpg" alt="the work image" class="image" />
+                            <div class="category">Support and encouragement</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                        <div class="box">
+                            <div class="shadow"></div>
+                            <img src="./img/cccccc.jpg" alt="the work image" class="image" />
+                            <div class="category">Support and encouragement</div>
+                            <lord-icon src="https://cdn.lordicon.com/tyounuzx.json" trigger="loop"
+                                colors="primary:#ffffff,secondary:#ffffff" style="width: 125px; height: 125px"
+                                class="lordIcon">
+                            </lord-icon>
+                            <a href="#portfolio"></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==============  TESTIMONTIOLS  ============== -->
+    <section id="testi">
+        <div id="orangeStar" class="str1"></div>
+        <div id="purpleStar" class="str2"></div>
+        <div id="purpleStar" class="str3"></div>
+        <div id="orangeStar" class="str4"></div>
+        <div class="top">
+            <h1>Happy Clients</h1>
+            <p>
+                Reviews and ratings from some<br>of our special customers
+            </p>
+        </div>
+        <!-- Swiper -->
+        <div class="contSwiper">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="up">
+                            <div class="content">
+                                متعه القاء جامده وتبسيط الشرح وكمان معلومات كتير بجد شكراااااااا
+                                <br> ( Youtube )
+                            </div>
+                        </div>
+                        <div class="down">
+                            <img src="./img/person3.png" />
+                            <h3>mo salem</h3>
+                        </div>
+                    </div>
+                    <!-- slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="up">
+                            <div class="content">
+                                كفاءة عالية في الشغل
+                                <br> بالتوفيق ياعاصم
+                                <br>( solid works )
+                            </div>
+                        </div>
+                        <div class="down">
+                            <img src="./img/person4.png" />
+                            <h3>kamal</h3>
+                        </div>
+                    </div>
+                    <!-- slide 5 -->
+                    <div class="swiper-slide">
+                        <div class="up">
+                            <div class="content">
+                                حقيقى من أكفأ الناس اللي اتعاملت معاها
+                                <br> ( cad )
+                            </div>
+                        </div>
+                        <div class="down">
+                            <img src="./img/person5.png" />
+                            <h3>Sara Salah</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============  CONTACT  ============== -->
+    <section id="contact">
+        <div id="orangeStar" class="str1"></div>
+        <div id="purpleStar" class="str2"></div>
+        <div id="purpleStar" class="str3"></div>
+        <div class="container">
+            <div class="top">
+                <h1>Contact</h1>
+                <p>Lets Say Hi!</p>
+            </div>
+            <div class="links">
+                <!-- row 1 -->
+                <div class="row">
+                    <!-- email -->
+                    <a href="https://www.youtube.com/channel/UC7pp5pIsdkIUsjyOIdrLBnQ" target="blank">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>Assem@gmail.com</h3>
+                    </a>
+                    <!-- Github -->
+                    <a href="https://www.youtube.com/channel/UC7pp5pIsdkIUsjyOIdrLBnQ" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                        <h3>خد فكره - Fikraa</h3>
+                    </a>
+
+                    <!-- facebook -->
+                    <a href="https://www.facebook.com/Assem.fikraa/?show_switched_toast=0&show_
+                    invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_
+                    transition=0&show_community_review_changes=0&show_follower_visibility_disclosure=0" target="blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <h3>Assem Ibrahim</h3>
+                    </a>
+                </div>
+                <!-- row 2 -->
+                <div class="row">
+                    <!-- Behance -->
+                    <a href="https://twitter.com/AssemIbrahem7" target="blank">
+                        <i class="fa-brands fa-twitter"></i>
+                        <h3>مش عاصم</h3>
+                    </a>
+                    <!-- phone -->
+                    <a href="https://wa.me/201013909250" target="blank">
+                        <i class="fa-solid fa-phone"></i>
+                        <h3>+201013909250</h3>
+                    </a>
+                </div>
+                <!-- row 3 -->
+                <div class="row">
+                    <!-- Linked in -->
+                    <a href="https://www.linkedin.com/in/assem-ibrahem-83a433156/" target="blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <h3>Assem Ibrahem</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============  FOOTER  ============== -->
+    <footer>
+        <div class="top">
+            <div class="right">
+                <h1>DON'T BE SHY !</h1>
+                <p>
+                    Feel free to get in touch with me.I am always open to discussing<br>
+                    creative ideas or
+                    opportunities to be part of your<br> visions.We are happy with our cooperation
+                </p>
+            </div>
+            <div class="left">
+                <h1>Who am i ?</h1>
+                <p>
+                    I am Asim Ibrahim, a student at the <br>Faculty of Engineering, Department of Mechanics.
+                    We discuss <br>everything we think is worth..
+                    We respect your mind and your <br>thinking..everything that has to do with <br>car
+                    mechanics..theories of
+                    laws we think to innovate
+                </p>
+            </div>
+        </div>
+
+        <div class="bottom">made with love => <a class="mo"
+                href="https://www.facebook.com/profile.php?id=100013657236896">mohammed
+                salem</a></div>
+    </footer>
+    <!--  -->
+    <div class="active-img-pop">
+        <div class="div-img">
+            <img alt="img" src="imges/desi/th/th1.jpg">
+        </div>
+    </div>
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!-- =========  SCRIPTS  ========= -->
+    <script src="./main.js"></script>
+    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
